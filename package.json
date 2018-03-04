@@ -1,0 +1,31 @@
+{
+  "name": "search-navbar-service",
+  "version": "1.0.0",
+  "description": "navbar/ searchbar for chompy",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codenamesgroup/search-navbar-service.git"
+  },
+  "author": "john ornelas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codenamesgroup/search-navbar-service/issues"
+  },
+  "homepage": "https://github.com/codenamesgroup/search-navbar-service#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.16.2",
+    "webpack": "^4.1.0"
+  }
+}

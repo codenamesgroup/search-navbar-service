@@ -1,0 +1,176 @@
+body {
+
+}
+
+
+
+.top {
+  background-color: red;
+  width: 100%;
+  height: 64px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  width: 80px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.search {
+  border: 1px solid black;
+  width: 740px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-one {
+  border: 1px solid black;
+  background-color: whitesmoke;
+  width: 343px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.search-two {
+  border: 1px solid black;
+  background-color: whitesmoke;
+  width: 343px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.search-button {
+  border: 1px solid black;
+  width: 60px;
+  height: 36px;
+}
+
+.sign-up {
+  border: 1px solid black;
+  width: 104px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom {
+  width: 100%;
+  height: 27px;
+  background-color: pink;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bottom-left {
+  border: 1px solid black;
+  width: 868px;
+  height: 27px;
+  display: flex;
+  justify-content: flex=start;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.restaurants {
+  border: 1px solid black;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.nightlife {
+  border: 1px solid black;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.home-services {
+  border: 1px solid black;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.write-a-review {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  height: 27px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.events {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 27px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.talk {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  height: 27px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+
+
+.bottom-right {
+  border: 1px solid black;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+.sign-in {
+  border: 1px solid black;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}

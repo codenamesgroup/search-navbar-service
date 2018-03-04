@@ -4,6 +4,7 @@
   "description": "navbar/ searchbar for chompy",
   "main": "index.js",
   "scripts": {
+    "server":"nodemon ./server/index.js",
     "test": "test"
   },
   "repository": {

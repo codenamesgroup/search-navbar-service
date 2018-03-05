@@ -1,7 +1,14 @@
 const express = require('express');
 const app = express();
+const path = require('path');
 
 app.use(express.static('./client/dist'))
+
+app.get('/:id', (req, res) => {
+  res.sendFile(path.join(__dirname + './../client/dist/index.html'));
+});
+
+
 
 app.get('/home', function(req, res){
   res.status(404).send('Homepage coming soon! Try again later!')

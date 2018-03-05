@@ -12,6 +12,37 @@ export default class App extends React.Component {
     }
   }
 
+  componentDidMount(){
+    // getRestarantLocationFromDB
+  }
+
+  getRestaurantLocationFromDB(){
+  // this gets our rest. ID from the browser window.
+  let url = window.location.href.split('/').pop();
+  url = url.split('?');
+  if (url.length > 1) {
+    let urlParams = url[1].split('&');
+    urlParams = urlParams.reduce((acc, param) => {
+      param = param.split('=');
+      acc[param[0]] = param[1];
+      return acc;
+    }, {id: url[0]});
+  }
+  let restaurantID = url[0]
+
+  $.ajax({
+    url: 'http://127.0.0.1:3033/navbar/location',
+    type: 'GET',
+    data: {id:restaurantID},
+    success: (data) => {
+      console.log('GET review success!', data);
+    },
+    error: (data) => {
+      console.log('GET failed!')
+    }
+  });
+}
+
   goHome(){
     $.ajax({
       url: `http://127.0.0.1:3033/home`,

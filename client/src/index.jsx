@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Top from './components/top.jsx';
 import Bottom from './components/bottom.jsx';
 import $ from 'jquery';
+import styles from './app.css';
 
 export default class App extends React.Component {
   constructor(){
@@ -71,6 +72,7 @@ export default class App extends React.Component {
 
   render(){
     return (
+
       <div>
         <Top goSignUp={this.goSignUp.bind(this)} goHome={this.goHome.bind(this)}/>
         <Bottom />
@@ -79,4 +81,5 @@ export default class App extends React.Component {
   }
 }
 
+window.Navbar = App;
 ReactDOM.render(<App />, document.getElementById('app'));
